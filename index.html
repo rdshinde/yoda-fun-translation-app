@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!--Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Yomogi&effect=shadow-multiple"
+    />
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="/assets/yoda.svg" type="image/x-icon" />
+    <title>Yoda Translations</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <div class="head"><h1 class="font-effect-shadow-multiple">Yoda Translator</h1></div>
+    <!-- Main translator body -->
+    <main class="wrapper">
+      <!-- Input text -->
+      <label for="original">Enter Your Text Here</label>
+      <div class="original">
+        <textarea
+          name="original"
+          id="original-text"
+          cols="30"
+          rows="10"
+          placeholder="Write something."
+        ></textarea>
+      </div>
+
+      <!-- Translate button -->
+      <button id="translate">Translate</button><br />
+      <!-- Translation output -->
+      <label for="translated">Translation comes here.⬇ </label>
+      <div class="translated">
+        <textarea
+          name="translated"
+          id="translated-text"
+          cols="30"
+          rows="10"
+          placeholder="Your fun translation will appear here."
+          
+        ></textarea>
+      </div>
+    </main>
+    <!-- Footer Starts Here -->
+    <footer class="footer">
+      <a href="#">Rishikesh Shinde</a><br />
+      <!-- Social Media Icons  -->
+      <span class="social-media">
+        <a href="https://github.com/rdshinde" target="_blank">
+          <img
+            style="display: inline; margin: 0 5px"
+            src="/assets/github.svg"
+            alt="github-link"
+            height="50px"
+            width="50"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rishikesh-shinde-1211b5192"
+          target="_blank"
+        >
+          <img
+            style="display: inline; margin: 0 5px"
+            src="/assets/linkedin.svg"
+            alt="github-link"
+            height="50px"
+            width="50"
+        /></a>
+      </span>
+    </footer>
+    <!-- Javascript linked here  -->
+    <script src="index.js"></script>
+  </body>
+</html>
