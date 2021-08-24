@@ -17,6 +17,6 @@ How it looks on mobile phone? Let's see:
 
 >### Where do I can have a fun of this app?
 
-You can visit this app by clicking [here]() .
+You can visit this app by clicking [here](https://yoda-fun-translation.netlify.app/) .
 
 Enjoy!
