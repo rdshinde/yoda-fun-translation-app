@@ -5,15 +5,15 @@ const translateBtn = document.querySelector("#translate");
 serverURL = "https://api.funtranslations.com/translate/"+'yoda'+".json"; // serverURL for minion translation
 
 
-function getURL(text) {                   // API URL builder function
+const getURL = text => {                   // API URL builder function
   return serverURL + "?" + "text=" + text;
 }
 
-function errorHandler(error) {
+const errorHandler = error => {
   alert(error.message+" Plaese Try again later.");  // Error handling function 
 }
 
-function translate() {        // defining function for translate event.
+const translate = () => {        // defining function for translate event.
   var inputText = originalText.value;
   if(inputText == ''){                              // Handling empty input text request
     alert('Please enter some text to translate.')
