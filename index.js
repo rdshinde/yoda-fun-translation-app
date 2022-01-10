@@ -14,7 +14,7 @@ const errorHandler = error => {
 }
 
 const translate = () => {        // defining function for translate event.
-  var inputText = originalText.value;
+  const inputText = originalText.value;
   if(inputText == ''){                              // Handling empty input text request
     alert('Please enter some text to translate.')
   }
@@ -22,7 +22,7 @@ const translate = () => {        // defining function for translate event.
     fetch(getURL(inputText))
     .then((response) => response.json())
     .then(json => {
-      var translatedtext = json.contents.translated;
+      const translatedtext = json.contents.translated;
       translatedText.innerText = translatedtext;
     })
     .catch(errorHandler);
